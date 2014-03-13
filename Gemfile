@@ -1,30 +1,11 @@
 source 'https://rubygems.org'
 
-# Distribute your app as a gem
-# gemspec
-
-# Server requirements
-# gem 'thin' # or mongrel
-# gem 'trinidad', :platform => 'jruby'
-
-# Optional JSON codec (faster performance)
-# gem 'oj'
-
 # Project requirements
 gem 'rake'
 
 # Component requirements
 gem 'haml'
 
-# Test requirements
-
-# Padrino Stable Gem
-gem 'padrino', '0.12.0'
-
-# Or Padrino Edge
-# gem 'padrino', :github => 'padrino/padrino-framework'
-
-# Or Individual Gems
-# %w(core gen helpers cache mailer admin).each do |g|
-#   gem 'padrino-' + g, '0.12.0'
-# end
+# Padrino Edge
+gem 'padrino', :git => 'https://github.com/padrino/padrino-framework.git',
+               :ref => "b09e530dbb42f8fe3b68fec140bee4199980e527"  # Padrino edge
