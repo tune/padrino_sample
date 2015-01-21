@@ -19,10 +19,10 @@ gem 'slim'
 # Test requirements
 
 # Padrino Stable Gem
-gem 'padrino', '0.12.4'
+# gem 'padrino', '0.12.4'
 
 # Or Padrino Edge
-# gem 'padrino', :github => 'padrino/padrino-framework'
+gem 'padrino', git: 'https://github.com/padrino/padrino-framework.git'
 
 # Or Individual Gems
 # %w(core support gen helpers cache mailer admin).each do |g|
