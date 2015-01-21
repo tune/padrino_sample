@@ -1,6 +1,5 @@
 module Sample
   class App < Padrino::Application
-    register Padrino::Rendering
     register Padrino::Mailer
     register Padrino::Helpers
 
@@ -58,8 +57,8 @@ module Sample
     #     render 'errors/404'
     #   end
     #
-    #   error 505 do
-    #     render 'errors/505'
+    #   error 500 do
+    #     render 'errors/500'
     #   end
     #
   end

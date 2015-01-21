@@ -14,17 +14,17 @@ source 'https://rubygems.org'
 gem 'rake'
 
 # Component requirements
-gem 'haml'
+gem 'slim'
 
 # Test requirements
 
 # Padrino Stable Gem
-gem 'padrino', '0.12.0'
+gem 'padrino', '0.12.4'
 
 # Or Padrino Edge
 # gem 'padrino', :github => 'padrino/padrino-framework'
 
 # Or Individual Gems
-# %w(core gen helpers cache mailer admin).each do |g|
-#   gem 'padrino-' + g, '0.12.0'
+# %w(core support gen helpers cache mailer admin).each do |g|
+#   gem 'padrino-' + g, '0.12.4'
 # end
